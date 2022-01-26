@@ -11,4 +11,4 @@ volume = (float)(input("[?] Required volume of diluted ACID (in ml): "))
 acidVolumeRequired = concentration2 * volume / concentration1
 waterVolumeRequired = volume - acidVolumeRequired
 
-print(f"\n>> {round(waterVolumeRequired, 1)}ml H₂O + {round(acidVolumeRequired, 1)}ml {concentration1}% ACID = {round(volume, 1)}ml")
+print(f"\n>> {round(waterVolumeRequired, 1)}ml H₂O + {round(acidVolumeRequired, 1)}ml {concentration1}% ACID = {round(volume, 1)}ml {concentration2}% ACID")
